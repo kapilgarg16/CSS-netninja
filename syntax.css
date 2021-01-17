@@ -1,0 +1,63 @@
+
+/* TODO External style*/
+/* style all p tags
+p
+{
+    font-size: 18px;
+    color: red;
+}
+#header p
+{
+    font-size: 24px;
+    color: aqua;
+}
+
+Style all header tags 
+h1
+{
+    font-size : 44px;
+    color: blueviolet;
+}
+*/
+
+
+/* TODO :- Targerting Elements /Tags 
+span
+{
+background-attachment: scroll;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    backface-visibility: visible;
+    background-color:black;
+    border-color: brown;
+    color: coral;
+    border-right-color: cyan;
+    border-collapse: collapse;
+    font-size: 200%;
+}
+
+h1
+{
+    font-size: 40px;
+    color: aqua;
+}
+h2
+{
+    color:darkcyan;
+}
+div
+{
+    /*  put image in background ??*/
+    
+    width: 100%;
+    background-attachment: grey;
+    background-color: black;
+}
+a
+{
+    color: brown;
+}
+p
+{
+    color: cornflowerblue;
+}

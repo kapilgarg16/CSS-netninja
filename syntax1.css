@@ -1,0 +1,61 @@
+/* Targeting classes anf ID */
+
+/*
+class & ID's
+
+-Both are a way to describe your content
+- ID's can be used only once per page - they are unique
+*/
+
+
+/*=====================================*/
+
+/*
+/* this will do all tags change*/
+h2
+{
+    font-size: 24px;
+    color:blue;
+    
+}
+
+/*This will do change only in id = content*/
+#content
+{
+    font-size: 18px;
+    color :red;
+}
+
+span
+{
+    display: block;  /*new line*/
+    color: blue;
+}
+
+
+/*This will do change only in class = gf*/
+.gf
+{
+    color: red;
+}
+
+
+/*=====================================*/
+
+/* it will do all tag red */
+
+/* you need to know what is default browser style
+
+EX: href default blue so we have to define another a function for change style*/
+body{
+    color:red;
+}
+div
+{
+    color:blue;
+}
+a
+{
+    color: red;
+    
+}
