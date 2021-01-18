@@ -1,4 +1,4 @@
-/* adjacent selectors */
+/* adjacent selectors 
 
 #all-articles h2+p
 {
@@ -19,6 +19,7 @@ p
 /*================================*/
 
 /* ATTRIBUTES SELECTOR */
+/*
 h2[id="xy"]
 {
     color: white;
@@ -37,16 +38,155 @@ a[title="search_engine_link"]
     display: block;
     color:royalblue;
     font:arial;
-}
+}*/
 
 /* the link wich is end with $ sign "*/
-a[href$="pdf"]
+
+/*a[href$="pdf"]
 {
     color: aqua;
 }
 
 /* the link wich is start with $ sign "*/
-a[href^="http"]
+/*a[href^="http"]
 {
     color: tomato;
 }
+/*==============================*/
+
+/*Pseudo Selector*/
+/*
+p:hover
+{
+    color: red;
+}
+h2:hover
+{
+    background: green;
+}
+a:hover{
+    
+    color:red;
+}
+
+
+/*--------------------------*/
+/* Hover, Active ,Visited Effects */
+/*
+a:hover
+{
+    
+    color:red;
+}
+a:active{
+    color:orange;
+}
+a:visited
+{
+    color : purple;
+}
+*/
+/*================================*/
+/* First & Last Child Selectors*/
+/*No longer work if last and first is not p*/
+/*
+div[class="xyz"] p:first-child
+{
+    color: red;
+    font: italic;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+div[class="xyz"] p:last-child
+{
+    color: green;
+}
+*/
+/*=====================================*/
+
+/*First & Last of Type Selectors*/
+/*change all the div  tye*/
+
+
+
+/*
+div[class="xyz"] p:first-of-type{
+    color: red;
+}
+
+div[class="xyz"] p:last-of-type
+{
+    color: red;
+}
+*/
+/*=====================================*/
+/*n-th child */
+
+/*
+div[class="xyz"] p:nth-child(2),div[class="xyz"] p:nth-child(3)
+{
+    color: brown;
+    font-weight: bolder;
+}
+
+
+li:nth-child(2n+5)
+{
+    color: green;
+    font-weight: bolder;
+    background: cyan;
+}
+li:nth-child(even)
+{
+    color: pink;
+    font-weight: bolder;
+    background: orange;
+}
+*/
+
+/*=====================================*/
+/*nth of Type Selectors */
+/*only for tags*/
+/*
+div:nth-of-type(2n+1)
+{
+    background: pink;
+    
+}
+*/
+
+/*=====================================*/
+/*Combining Selectors */
+/*
+article.feature
+{
+    background: red;
+}
+div.feature
+{
+    background: blue;
+}
+*/
+
+
+/*=====================================*/
+/*Universal Selectors */
+/*They also override links*/
+/*
+*{
+    margin:0;
+    padding: 0;
+    color:blue;
+    
+}
+*/
+/*They do not also override links default browser style */
+/*
+body
+{
+  color: red;  
+}
+*/
+
+
