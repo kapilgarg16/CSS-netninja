@@ -1,0 +1,52 @@
+/* adjacent selectors */
+
+#all-articles h2+p
+{
+    color:red;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+p
+{
+    color:chocolate;
+    backface-visibility: visible;
+    background: pink;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+/*================================*/
+
+/* ATTRIBUTES SELECTOR */
+h2[id="xy"]
+{
+    color: white;
+    background: black;
+    
+}
+span[class] 
+{
+    color: yellow;
+    font-weight: bold;
+    background: grey;
+}
+
+a[title="search_engine_link"]
+{
+    display: block;
+    color:royalblue;
+    font:arial;
+}
+
+/* the link wich is end with $ sign "*/
+a[href$="pdf"]
+{
+    color: aqua;
+}
+
+/* the link wich is start with $ sign "*/
+a[href^="http"]
+{
+    color: tomato;
+}
