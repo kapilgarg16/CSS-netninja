@@ -1,0 +1,54 @@
+/* Important declaration*/
+
+/* now it will not override it due to important*'/
+p
+{
+    color :red ! important;
+}
+# main-content p{
+    color: green;
+}
+
+/*====================*/
+/* targeting multiple element 
+if we want to change every tag same that 
+use targeting multiple eleemnts*/
+
+/*
+p,a,span,li
+{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial;
+}
+*/
+
+/*============================*/
+/* Descendants */
+/* parent child concept */
+/*
+#contest p
+{
+    color: orange;
+}
+*/
+
+
+/*================================*/
+/* Direct children */
+/*
+we want to catch only children of those parent 
+not grand children
+*/
+/*
+#contest > p
+{
+    color: red;
+    font-size: 23px;
+    font-weight: bold;
+}
+*/
+/*==============================*/
+/* ADJACENT Selectors */
+
