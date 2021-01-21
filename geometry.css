@@ -1,0 +1,121 @@
+
+/*
+article
+{
+    font-size: 12px;
+}
+article p
+{
+    font-size = 16px
+    font-size: 2em; 
+}
+article h3
+{
+    font-size: 500%;
+}*/
+
+
+/*======================
+Font family----------------*/
+
+/*
+article h2, article p{
+    font-family: arial, helvetica , sans-serif;
+    hamFont
+}*/
+/*======================
+Text - Decoration---------------*/
+
+/*
+article
+{
+    text-decoration: underline;
+}
+h2
+{
+    text-decoration: inherit;
+}
+*/
+
+/*======================
+Text - Font weight---------------*/
+/*
+
+h3
+{
+    font-weight:500;
+}
+p
+{
+    font-weight: lighter;
+    font-family: "Yu Gothic";
+}
+*/
+/*-==-=-==-=-=-=-=-=-=-=-=-==-==-=-=-=-=-=-==-=-=*/
+/* taxt transform */
+/*
+#header p
+{
+    text-transform:uppercase;
+}
+*/
+/*
+article p
+{
+    text-transform: uppercase;
+}
+*/
+/*all decendants of p*/
+/*
+body > div
+{
+    text-transform: uppercase;
+    background-color: pink;
+}
+*/
+/*-==-=-==-=-=-=-=-=-=-=-=-==-==-=-=-=-=-=-==-=-=*/
+/* text - color*/
+
+/*
+#header p
+{
+    color:chocolate;
+    font-weight: bold;
+    background-color: pink;
+}
+body>p
+{
+   background-color: pink;
+}*/
+/*-==-=-==-=-=-=-=-=-=-=-=-==-==-=-=-=-=-=-==-=-=*/
+/* Styling Links*/
+
+/* just psudo styling */
+/*
+a:hover
+{
+    color:chocolate;
+    text-decoration: underline;
+
+}
+*/
+/*-==-=-==-=-=-=-=-=-=-=-=-==-==-=-=-=-=-=-==-=-=*/
+/* Letter Spacing & Line Height*/
+/*
+p
+{
+    font-size: 12px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 50px;
+}
+*/
+/*-==-=-==-=-=-=-=-=-=-=-=-==-==-=-=-=-=-=-==-=-=*/
+/*  Paragraph Spacing*/
+/* the paragraph distance between p tag  */
+/*
+p
+{
+
+    margin-bottom: 210px;
+}*/
